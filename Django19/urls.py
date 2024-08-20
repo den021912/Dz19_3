@@ -1,0 +1,12 @@
+from django.contrib import admin
+from django.urls import path
+from Django19.task1.views import class_template, games, basket, sign_up_by_django, sign_up_by_html
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('yandex', class_template),
+    path('yandex/games', games),
+    path('yandex/basket', basket),
+    path('django_sign_up/', sign_up_by_django),
+    path('', sign_up_by_html)
+]
