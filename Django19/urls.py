@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from Django19.task1.views import class_template, games, basket, sign_up_by_django, sign_up_by_html
+from task1.views import class_template, games, basket, sign_up_by_django, sign_up_by_html
 
 urlpatterns = [
     path('admin/', admin.site.urls),
