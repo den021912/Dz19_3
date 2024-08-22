@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from Django19.task1.forms import UserRegister
+from task1.forms import UserRegister
 from .models import Game, Buyer
 
 
