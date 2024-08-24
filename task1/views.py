@@ -20,7 +20,7 @@ def games(request):
     context = {
         'title_games': title_games,
         'buy': buy,
-        'games': games
+        'gamess': gamess
     }
     return render(request, "games.html", context=context)
 
